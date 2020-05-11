@@ -1,0 +1,49 @@
+div{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  border-radius: 5px;
+  display: none;
+}
+
+#premier{
+  background-color: yellow;
+  left: 85%;
+}
+
+#deuxieme{
+  background-color: red;
+  left: 70%;
+}
+
+#troisieme{
+  background-color: blue;
+  left: 55%;
+}
+
+#quatrieme{
+  background-color: olivedrab;
+  left: 40%;
+}
+
+#cinquieme{
+  background-color:royalblue;
+  left: 25%;
+}
+
+#sixieme{
+  background-color: blanchedalmond;
+  left: 5%;
+}
+
+
+.bottom{
+  z-index: 1;
+  position: relative;
+}
+
+.top{
+  z-index: 2;
+  position: relative;
+}
